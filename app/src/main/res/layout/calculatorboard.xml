@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:background="#FBFBFB"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_ovel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <Button
+                style="@style/Key"
+                android:id="@+id/ac_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="AC"
+                android:text="AC"/>
+
+            <Button
+                style="@style/Key"
+                android:id="@+id/num_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="7"
+                android:text="7"/>
+
+            <Button
+                android:id="@+id/num_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="4"
+                android:text="4"
+                style="@style/Key"/>
+
+            <Button
+                android:id="@+id/num_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="1"
+                android:text="1"
+                style="@style/Key"/>
+
+            <Button
+                android:id="@+id/num_zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:tag="0"
+                android:text="0"
+                style="@style/Key"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/percent_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="%"
+                android:text="%"
+                style="@style/Key"/>
+
+            <Button
+                android:id="@+id/num_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="8"
+                android:text="8"
+                style="@style/Key"/>
+
+            <Button
+                android:id="@+id/num_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="5"
+                android:text="5"
+                style="@style/Key"/>
+            <Button
+                android:id="@+id/num_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="2"
+                android:text="2"
+                style="@style/Key"/>
+
+            <Button
+                android:id="@+id/dot_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:tag="."
+                android:text="."
+                style="@style/Key"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/divide_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="÷"
+                android:text="÷"
+                style="@style/Key"/>
+
+
+            <Button
+                android:id="@+id/num_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="9"
+                android:text="9"
+                style="@style/Key"/>
+
+            <Button
+                android:id="@+id/num_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="6"
+                android:text="6"
+                style="@style/Key"/>
+
+            <Button
+                android:id="@+id/num_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="3"
+                android:text="3"
+                style="@style/Key"/>
+
+            <Button
+                android:id="@+id/delete_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="DEL"
+                style="@style/Key"/>
+
+        </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_height="fill_parent">
+
+                    <Button
+                        style="@style/Key"
+                        android:id="@+id/multiply_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="×" />
+                    <Button
+                        style="@style/Key"
+                        android:id="@+id/subtract_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="-"
+                        android:text="-" />
+                    <Button
+                        android:id="@+id/plus_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:tag="+"
+                        android:text="+"
+                        style="@style/Key"/>
+
+                    <Button
+                        android:id="@+id/equal_btn"
+                        android:layout_width="wrap_content"
+                       android:layout_height="match_parent"
+                        android:tag="14"
+                        android:text="="
+                        style="@style/Key"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+

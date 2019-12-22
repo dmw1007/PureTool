@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F8F8">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/minimum_text_value"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rect_text_edit"
+            android:ems="10"
+            android:layout_gravity="center_horizontal"
+            android:hint="请输入最小值..."
+            android:inputType="number"
+            android:textAlignment="center" />
+
+
+        <EditText
+            android:id="@+id/maximum_text_value"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rect_text_edit"
+            android:ems="10"
+            android:layout_gravity="center_horizontal"
+            android:hint="请输入最大值..."
+            android:inputType="number"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="220dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="220dp">
+
+        <TextView
+            android:id="@+id/current"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/rect_textbg"
+            android:ems="10"
+            android:focusable="false"
+            android:inputType="none"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="32dp">
+
+        </TextView>
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <Button
+        android:id="@+id/btnNextNumber"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickNextNumber"
+        android:background="@drawable/rect_bt_generate"
+        android:textColor="#1D1D1D"
+        android:text="生成" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClickReset"
+        android:background="@drawable/rect_bt_reset"
+        android:textColor="#1D1D1D"
+        android:text="清零" />
+
+    <Button
+        android:id="@+id/btnClearHistory"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/rect_bt_clearhistory"
+        android:layout_height="wrap_content"
+        android:onClick="onClickClearHistory"
+        android:textColor="#1D1D1D"
+        android:text="清除历史" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+    <EditText
+        android:id="@+id/txtPastHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:focusable="false"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:text="历史数字:"
+        android:textColor="#000"
+        android:textSize="15dp" />
+    </LinearLayout>
+</LinearLayout>

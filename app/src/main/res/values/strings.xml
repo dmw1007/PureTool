@@ -1,0 +1,32 @@
+<resources>
+
+
+    <string name="app_name">Pure工具箱</string>
+    <string name="jzzh_name">进制转换</string>
+    <string name="book_name">资料库</string>
+    <string name="qiang_name">配色墙</string>
+    <string name="jisuanq_name">计算器</string>
+    <string name="tools_name">工具箱</string>
+    <string name="bianyi_name">在线编译</string>
+    <string name="trans_name">翻译</string>
+    <string name="wuliu_name">物流查询</string>
+    <string name="number_name">随机数</string>
+    <string name="compass_name">指南针</string>
+    <string name="ocr_name">文字识别</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Nothing seek, nothing find.</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">设置</string>
+    <string name="done">Contents have been copied to the clipboard</string>
+    <string name="cancel">CANCEL</string>
+    <string name="hint">Hint</string>
+    <string name="hint1">请输入十进制数</string>
+    <string name="more_radix"><![CDATA[点击获取其他进制]]></string>
+    <string name="clipboard_3">Clipboard is empty</string>
+    <string name="clipboard_2">Incorrect data--</string>
+    <string name="clipboard_1">Number do not match the radix--</string>
+</resources>

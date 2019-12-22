@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //软件主色
+    <color name="colorPrimary">#71C9C9</color>
+    <color name="colorPrimaryDark">#71C9C9</color>
+    <color name="colorAccent">#FF33A7AA</color>
+    <color name="colorLight">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="colorTextPrimary">#212121</color>
+
+    //随机数
+    <color name="textColorHint">#FFD4D4D4</color>
+    <color name="input_enable_color">#FF0099CC</color>
+    <color name="input_disenable_color">#FFB0B0B0</color>
+
+    //指南针
+    <color name="black">#000</color>
+    <color name="cyan">#71C9C9</color>
+    <color name="lightGray">#323232</color>
+    <color name="deepGray">#8B8B8B</color>
+    <color name="orange">#FF8862</color>
+    <color name="red">#71C9C9</color>
+    <color name="ocbg">#237EAD</color>
+
+</resources>
